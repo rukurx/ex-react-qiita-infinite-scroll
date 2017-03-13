@@ -11,10 +11,7 @@ import App from './components/App';
 
 const initialState = {
     posts: [
-    ],
-    loading: {
-        isActive: false
-    }
+    ]
 };
 
 const sagaMiddleware = createSagaMiddleware();

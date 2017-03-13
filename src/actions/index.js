@@ -1,17 +1,3 @@
-// ローディングを表示する
-export const showLoading = () => {
-    return {
-        type: 'SHOW_LOADING'
-    }
-}
-
-// ローディングを隠す
-export const hideLoading = () => {
-    return {
-        type: 'HIDE_LOADING'
-    }
-}
-
 // 投稿を追加する
 export const successGetMorePosts = (posts) => {
     return {
