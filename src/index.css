@@ -1,0 +1,44 @@
+.app {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.post {
+  display: flex;
+  margin: 8px 0 8px 0;
+}
+
+.post-user {
+  display: flex;
+}
+
+.post-user_image img {
+  height: 25px;
+  width: 25px;
+}
+
+.post-user_name {
+  margin: 0 4px 0 4px;
+}
+
+.btn-read_more {
+  background-color:#49a9d4;
+  border-radius:5px;
+  box-shadow:2px 2px #1a6ea0;
+  color:#fff;
+  display:block;
+  font-size:24px;
+  font-weight:bold;
+  padding:8px 0 10px;
+  text-align: center;
+  text-decoration:none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.loading {
+  margin-top: 4px;
+  text-align: center;
+}
